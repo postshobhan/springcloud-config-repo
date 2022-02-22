@@ -1,2 +1,21 @@
-server:
-  port: 8903
+welcome:
+  message: Test App !
+
+app:
+  description: Project displays ${welcome.message}
+
+my:
+  list: one, two, three
+
+dbvalues:
+  params:
+    url: http://abcd
+    user: foo
+    password: bar
+
+config:
+    ips:
+      - 10.10.10.10
+      - 10.10.10.11
+      - 10.10.10.12
+      - 10.10.10.13
