@@ -1,5 +1,5 @@
 welcome:
-  message: Test App !
+  message: Updated test App !
 
 app:
   description: Project displays ${welcome.message}
